@@ -13,7 +13,7 @@ interface TMDBResponse {
   results: Movie[];
 }
 
-const API_KEY = '0bca76273ef71293c3217a098d3c7d1f';
+const API_KEY = 'enter your api key';
 const BASE_URL = 'https://api.themoviedb.org/3';
 
 export const fetchMovies = async (): Promise<Movie[]> => {
